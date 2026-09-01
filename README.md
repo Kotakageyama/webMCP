@@ -34,3 +34,7 @@ the app reads `orders` and writes approved actions to `task_actions`.
 4. Deploy with `make PROJECT_ID=... REGION=asia-northeast1 release`.
 
 Cloud Run receives only the Secret Manager reference; `DATABASE_URL` is never baked into the image. The app uses Next.js standalone output and binds to Cloud Run's `PORT` (8080 by default).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
