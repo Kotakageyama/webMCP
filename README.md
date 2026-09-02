@@ -13,6 +13,36 @@ On a WebMCP-enabled Chrome origin, `app/webmcp.ts` uses the Imperative API
 current page/task state. In browsers without WebMCP the merchant UI remains fully
 functional; the capability panel visibly explains the same task graph.
 
+## Verify WebMCP
+
+WebMCP site tools are not a ChatGPT connector or an item in the chat `+` menu.
+They belong to the currently open page and are discovered by a WebMCP-aware
+browser agent.
+
+### ChatGPT desktop app
+
+1. Open the Cloud Run URL in the ChatGPT desktop app's built-in browser.
+2. Confirm **Browser settings → Permissions → Enable site tools** is enabled.
+3. Check the arrow in the browser address bar. It lists the tools available on
+   the current page state.
+4. Ask ChatGPT to return the red T-shirt, change the delivery address, or
+   cancel the shipment. The app intentionally exposes task-starting tools on
+   the dashboard and only the relevant read/preparation tools after entering a
+   task.
+
+The in-page **Live WebMCP tools** panel is derived from the same tool-name
+definition used for registration. Its status reports whether this browser
+registered the tools, does not expose WebMCP, or returned a registration error.
+
+### Google Chrome
+
+Chrome verification confirms the page API, but it does not turn the site into a
+ChatGPT custom app. Use Chrome 149 or newer, enable
+`chrome://flags/#enable-webmcp-testing`, relaunch, then open the deployed URL.
+Use Chrome DevTools' WebMCP tooling or the page's **Live WebMCP tools** status to
+confirm that the dashboard exposes three task starters. Enter each task and
+confirm that the exposed list changes to its task-specific tools.
+
 ## Run locally
 
 ```bash
