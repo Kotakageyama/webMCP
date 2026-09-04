@@ -1,5 +1,7 @@
 # TaskSurface
 
+[日本語版 README](README.ja.md)
+
 TaskSurface demonstrates a WebMCP-native collaborative UI: page capabilities
 are the source of truth, an agent narrows the work into a task-specific surface,
 and the merchant previews and explicitly commits the semantic change.

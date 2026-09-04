@@ -1,5 +1,7 @@
 # TaskSurface — 3-minute YouTube demo script
 
+[日本語版](youtube-demo-script.ja.md)
+
 **Target duration:** 2 minutes 35 seconds to 2 minutes 50 seconds.
 
 **Language:** English narration with optional English captions.

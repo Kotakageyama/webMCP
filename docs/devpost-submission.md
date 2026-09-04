@@ -1,5 +1,7 @@
 # TaskSurface — Devpost submission draft
 
+[日本語版](devpost-submission.ja.md)
+
 ## Project name
 
 TaskSurface
