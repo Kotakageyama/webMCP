@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "targets": {
+    "/security-lab": {
+      "targetKind": "existing-ui",
+      "projectId": "c4dddc5c-b98f-4498-9b7b-8ee7a16f282d",
+      "baselineDraftId": "e5366eb0-8270-4d3a-a56e-edc23e052362",
+      "activeDraftId": "e5366eb0-8270-4d3a-a56e-edc23e052362",
+      "designSystemPath": ".superdesign/design-system.md",
+      "referenceIds": [],
+      "contextFiles": [
+        ".superdesign/design-system.md",
+        "app/styles.css",
+        "app/security-lab/security.css",
+        "app/security-lab/security-lab.tsx",
+        "app/security-lab/layout.tsx"
+      ],
+      "fingerprints": {
+        ".superdesign/design-system.md": "74bf2e7faf887469ac6aa0b13d71e5836658f6277dc4d012d78a9c29074f4603",
+        "app/styles.css": "4ca13f031b0f055f57fb2ee81ce2db2cf07fa5b6d20d020117361f9988d6f8a2",
+        "app/security-lab/security.css": "5dcf008fb73694881b56accc4f0e201de259a53596330986afc584b78cfcbbb0",
+        "app/security-lab/security-lab.tsx": "6562a92fd3d8bc7262ffde35e74d6925b8819f4f871544a844f31b4dbc79a4ee",
+        "app/security-lab/layout.tsx": "a484b2713687693b763f0fef002b05ce5161b766e6a5f12e68d82367141e5fd8"
+      },
+      "components": [
+        {
+          "name": "SecurityLabHeader",
+          "id": "fcd87c32-dace-4d02-8836-19c9d3a29d8d",
+          "sourcePath": "app/security-lab/security-lab.tsx"
+        }
+      ],
+      "drafts": {
+        "e5366eb0-8270-4d3a-a56e-edc23e052362": {
+          "title": "WebMCP Security Lab | 社内勉強会プレゼンモード",
+          "visualDirection": "dark operational three-scenario security learning lab",
+          "currentVersion": 3
+        }
+      },
+      "updatedAt": "2026-09-18T12:01:28+09:00"
+    }
+  }
+}
