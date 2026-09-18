@@ -2,6 +2,14 @@
 
 [日本語版 README](README.ja.md)
 
+## Live demo
+
+<https://tasksurface-951160457695.asia-northeast1.run.app>
+
+For a Japanese, browser-only security-learning experience that does not require
+ChatGPT or WebMCP-enabled Chrome, open
+<https://tasksurface-951160457695.asia-northeast1.run.app/security-lab>.
+
 TaskSurface demonstrates a WebMCP-native collaborative UI: page capabilities
 are the source of truth, an agent narrows the work into a task-specific surface,
 and the merchant previews and explicitly commits the semantic change.
